@@ -1,0 +1,4 @@
+# Load custom prompt if it exists
+if [ -f ~/.bash-customization.sh ]; then
+  . ~/.bash-customization.sh
+fi
