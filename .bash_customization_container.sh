@@ -8,6 +8,7 @@ if [ -f /etc/os-release ]; then
         fedora) DISTRO_ICON="" ;;
         ubuntu) DISTRO_ICON="" ;;
         debian) DISTRO_ICON="" ;;
+        nixos) DISTRO_ICON="󱄅";;
         opensuse*)  DISTRO_ICON="" ;;
         *)      DISTRO_ICON="" ;;
     esac
